@@ -1,0 +1,7 @@
+# Versions used for the published results (Python 3.13). Newer versions should work but may change last digits.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+scikit-learn==1.9.1
+pymoo==0.6.2
+matplotlib==3.11.2

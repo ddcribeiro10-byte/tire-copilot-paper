@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this repository as below."
+title: "Tire Design Copilot: code and results for the Tire Society 2027 paper"
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+repository-code: "https://github.com/ddcribeiro10-byte/tire-copilot-paper"
+authors:
+  - family-names: de Carvalho Ribeiro
+    given-names: Diego
+abstract: >-
+  Reduced-order, physics-informed tread simulator, agent-orchestrated surrogate-assisted design copilot,
+  benchmarks, and frozen results behind "An Agent-Orchestrated, Surrogate-Assisted Design Copilot for
+  Replacement-Market Tire Lines: Framework and Reproducible Proof of Concept". The simulator is not
+  calibrated against real tires.

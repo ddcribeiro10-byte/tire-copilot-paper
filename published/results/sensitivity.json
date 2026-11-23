@@ -1,0 +1,306 @@
+{
+ "keys": [
+  "rr_tread",
+  "wet_edge",
+  "wet_drain",
+  "wet_compound",
+  "hydro_drain",
+  "wear_pressure",
+  "wear_peak",
+  "noise_tonal",
+  "noise_pump"
+ ],
+ "factors": [
+  [
+   1.025,
+   0.872,
+   0.824,
+   1.001,
+   1.169,
+   1.022,
+   1.086,
+   1.122,
+   0.827
+  ],
+  [
+   0.869,
+   0.953,
+   0.938,
+   1.085,
+   1.03,
+   1.086,
+   1.032,
+   0.953,
+   0.931
+  ],
+  [
+   1.161,
+   1.048,
+   1.085,
+   1.165,
+   0.927,
+   0.806,
+   0.978,
+   1.169,
+   1.171
+  ],
+  [
+   0.92,
+   0.917,
+   1.124,
+   0.84,
+   0.997,
+   1.187,
+   1.195,
+   1.044,
+   1.136
+  ],
+  [
+   0.82,
+   1.083,
+   0.861,
+   0.902,
+   1.133,
+   0.888,
+   0.916,
+   0.921,
+   0.962
+  ],
+  [
+   0.969,
+   1.186,
+   1.004,
+   1.121,
+   0.864,
+   0.966,
+   0.812,
+   1.062,
+   1.029
+  ],
+  [
+   1.148,
+   0.826,
+   1.155,
+   0.893,
+   1.061,
+   1.117,
+   0.865,
+   0.889,
+   1.096
+  ],
+  [
+   1.087,
+   1.119,
+   0.981,
+   0.987,
+   0.83,
+   0.914,
+   1.137,
+   0.823,
+   0.88
+  ]
+ ],
+ "variants": [
+  {
+   "hv_mean": {
+    "Conventional (expert loops)": 40.1,
+    "Random sampling (LHS)": 15.3,
+    "NSGA-II on simulator": 14.0,
+    "ParEGO (MOBO)": 10.8,
+    "AI copilot (surrogate + agent)": 83.2
+   },
+   "best_score_mean": {
+    "Conventional (expert loops)": 0.578,
+    "Random sampling (LHS)": 0.665,
+    "NSGA-II on simulator": 0.665,
+    "ParEGO (MOBO)": 0.653,
+    "AI copilot (surrogate + agent)": 0.516
+   },
+   "ranking": [
+    "AI copilot (surrogate + agent)",
+    "Conventional (expert loops)",
+    "Random sampling (LHS)",
+    "NSGA-II on simulator",
+    "ParEGO (MOBO)"
+   ],
+   "copilot_first": true,
+   "copilot_best_score": true
+  },
+  {
+   "hv_mean": {
+    "Conventional (expert loops)": 41.2,
+    "Random sampling (LHS)": 17.4,
+    "NSGA-II on simulator": 37.5,
+    "ParEGO (MOBO)": 10.3,
+    "AI copilot (surrogate + agent)": 84.3
+   },
+   "best_score_mean": {
+    "Conventional (expert loops)": 0.574,
+    "Random sampling (LHS)": 0.669,
+    "NSGA-II on simulator": 0.593,
+    "ParEGO (MOBO)": 0.684,
+    "AI copilot (surrogate + agent)": 0.531
+   },
+   "ranking": [
+    "AI copilot (surrogate + agent)",
+    "Conventional (expert loops)",
+    "NSGA-II on simulator",
+    "Random sampling (LHS)",
+    "ParEGO (MOBO)"
+   ],
+   "copilot_first": true,
+   "copilot_best_score": true
+  },
+  {
+   "hv_mean": {
+    "Conventional (expert loops)": 40.6,
+    "Random sampling (LHS)": 15.3,
+    "NSGA-II on simulator": 17.9,
+    "ParEGO (MOBO)": 11.8,
+    "AI copilot (surrogate + agent)": 80.3
+   },
+   "best_score_mean": {
+    "Conventional (expert loops)": 0.558,
+    "Random sampling (LHS)": 0.654,
+    "NSGA-II on simulator": 0.635,
+    "ParEGO (MOBO)": 0.634,
+    "AI copilot (surrogate + agent)": 0.503
+   },
+   "ranking": [
+    "AI copilot (surrogate + agent)",
+    "Conventional (expert loops)",
+    "NSGA-II on simulator",
+    "Random sampling (LHS)",
+    "ParEGO (MOBO)"
+   ],
+   "copilot_first": true,
+   "copilot_best_score": true
+  },
+  {
+   "hv_mean": {
+    "Conventional (expert loops)": 40.6,
+    "Random sampling (LHS)": 18.4,
+    "NSGA-II on simulator": 22.9,
+    "ParEGO (MOBO)": 18.6,
+    "AI copilot (surrogate + agent)": 85.7
+   },
+   "best_score_mean": {
+    "Conventional (expert loops)": 0.573,
+    "Random sampling (LHS)": 0.648,
+    "NSGA-II on simulator": 0.66,
+    "ParEGO (MOBO)": 0.66,
+    "AI copilot (surrogate + agent)": 0.487
+   },
+   "ranking": [
+    "AI copilot (surrogate + agent)",
+    "Conventional (expert loops)",
+    "NSGA-II on simulator",
+    "ParEGO (MOBO)",
+    "Random sampling (LHS)"
+   ],
+   "copilot_first": true,
+   "copilot_best_score": true
+  },
+  {
+   "hv_mean": {
+    "Conventional (expert loops)": 37.9,
+    "Random sampling (LHS)": 19.0,
+    "NSGA-II on simulator": 18.1,
+    "ParEGO (MOBO)": 22.9,
+    "AI copilot (surrogate + agent)": 87.0
+   },
+   "best_score_mean": {
+    "Conventional (expert loops)": 0.563,
+    "Random sampling (LHS)": 0.64,
+    "NSGA-II on simulator": 0.638,
+    "ParEGO (MOBO)": 0.637,
+    "AI copilot (surrogate + agent)": 0.489
+   },
+   "ranking": [
+    "AI copilot (surrogate + agent)",
+    "Conventional (expert loops)",
+    "ParEGO (MOBO)",
+    "Random sampling (LHS)",
+    "NSGA-II on simulator"
+   ],
+   "copilot_first": true,
+   "copilot_best_score": true
+  },
+  {
+   "hv_mean": {
+    "Conventional (expert loops)": 42.0,
+    "Random sampling (LHS)": 17.0,
+    "NSGA-II on simulator": 30.7,
+    "ParEGO (MOBO)": 14.3,
+    "AI copilot (surrogate + agent)": 78.9
+   },
+   "best_score_mean": {
+    "Conventional (expert loops)": 0.546,
+    "Random sampling (LHS)": 0.641,
+    "NSGA-II on simulator": 0.591,
+    "ParEGO (MOBO)": 0.669,
+    "AI copilot (surrogate + agent)": 0.506
+   },
+   "ranking": [
+    "AI copilot (surrogate + agent)",
+    "Conventional (expert loops)",
+    "NSGA-II on simulator",
+    "Random sampling (LHS)",
+    "ParEGO (MOBO)"
+   ],
+   "copilot_first": true,
+   "copilot_best_score": true
+  },
+  {
+   "hv_mean": {
+    "Conventional (expert loops)": 41.6,
+    "Random sampling (LHS)": 15.7,
+    "NSGA-II on simulator": 19.6,
+    "ParEGO (MOBO)": 12.3,
+    "AI copilot (surrogate + agent)": 85.6
+   },
+   "best_score_mean": {
+    "Conventional (expert loops)": 0.579,
+    "Random sampling (LHS)": 0.654,
+    "NSGA-II on simulator": 0.652,
+    "ParEGO (MOBO)": 0.698,
+    "AI copilot (surrogate + agent)": 0.493
+   },
+   "ranking": [
+    "AI copilot (surrogate + agent)",
+    "Conventional (expert loops)",
+    "NSGA-II on simulator",
+    "Random sampling (LHS)",
+    "ParEGO (MOBO)"
+   ],
+   "copilot_first": true,
+   "copilot_best_score": true
+  },
+  {
+   "hv_mean": {
+    "Conventional (expert loops)": 40.1,
+    "Random sampling (LHS)": 16.9,
+    "NSGA-II on simulator": 22.8,
+    "ParEGO (MOBO)": 19.3,
+    "AI copilot (surrogate + agent)": 82.4
+   },
+   "best_score_mean": {
+    "Conventional (expert loops)": 0.552,
+    "Random sampling (LHS)": 0.632,
+    "NSGA-II on simulator": 0.602,
+    "ParEGO (MOBO)": 0.619,
+    "AI copilot (surrogate + agent)": 0.492
+   },
+   "ranking": [
+    "AI copilot (surrogate + agent)",
+    "Conventional (expert loops)",
+    "NSGA-II on simulator",
+    "ParEGO (MOBO)",
+    "Random sampling (LHS)"
+   ],
+   "copilot_first": true,
+   "copilot_best_score": true
+  }
+ ],
+ "seconds": 1309.4505171775818
+}

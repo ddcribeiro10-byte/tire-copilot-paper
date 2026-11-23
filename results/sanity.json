@@ -1,0 +1,92 @@
+[
+ {
+  "change": "tand60 +0.04",
+  "output": "rrc",
+  "base": 9.07,
+  "new": 10.75,
+  "expected": "increase",
+  "ok": true,
+  "note": "Higher compound hysteresis raises rolling resistance"
+ },
+ {
+  "change": "tand0 +0.1",
+  "output": "wet",
+  "base": 35.56,
+  "new": 32.63,
+  "expected": "decrease",
+  "ok": true,
+  "note": "Higher loss factor at 0 \u00b0C shortens wet braking"
+ },
+ {
+  "change": "sipes +2",
+  "output": "wet",
+  "base": 35.56,
+  "new": 33.4,
+  "expected": "decrease",
+  "ok": true,
+  "note": "More sipes (edges) shorten wet braking"
+ },
+ {
+  "change": "sipes +2",
+  "output": "wear",
+  "base": 97.14,
+  "new": 92.98,
+  "expected": "decrease",
+  "ok": true,
+  "note": "More sipes soften blocks and reduce treadwear"
+ },
+ {
+  "change": "depth +1",
+  "output": "wear",
+  "base": 97.14,
+  "new": 104.65,
+  "expected": "increase",
+  "ok": true,
+  "note": "Deeper tread increases wear life"
+ },
+ {
+  "change": "depth +1",
+  "output": "rrc",
+  "base": 9.07,
+  "new": 9.61,
+  "expected": "increase",
+  "ok": true,
+  "note": "Deeper tread increases rolling resistance"
+ },
+ {
+  "change": "w_circ +3",
+  "output": "hydro_min",
+  "base": 77.35,
+  "new": 80.2,
+  "expected": "increase",
+  "ok": true,
+  "note": "Wider circumferential grooves raise hydroplaning speed"
+ },
+ {
+  "change": "pitch_ratio +0.3",
+  "output": "noise",
+  "base": 71.23,
+  "new": 70.49,
+  "expected": "decrease",
+  "ok": true,
+  "note": "Larger pitch ratio spreads tonal noise"
+ },
+ {
+  "change": "ang_lat +20",
+  "output": "noise",
+  "base": 71.23,
+  "new": 71.09,
+  "expected": "decrease",
+  "ok": true,
+  "note": "Angled lateral grooves reduce impact noise"
+ },
+ {
+  "change": "w_lat +2",
+  "output": "noise",
+  "base": 71.23,
+  "new": 71.85,
+  "expected": "increase",
+  "ok": true,
+  "note": "Wider lateral grooves increase air-pumping noise"
+ }
+]

@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+output/
+# manuscript build (text under review) and local assistant notes stay out of the public repo
+tst/
+CLAUDE.md

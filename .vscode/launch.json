@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "1. Play with a design (play_design.py)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/play_design.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "2. Watch the copilot run (150 checks)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/run_copilot_live.py", "args": ["--budget", "150", "--seed", "0"],
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "3. Copilot with YOU as engineer gate", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/run_copilot_live.py", "args": ["--budget", "100", "--gate"],
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "4. Rebuild figures from saved results (~2 min)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/run_pipeline.py", "args": ["--mode", "figures"],
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "5. Quick reproduction (~15 min)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/run_pipeline.py", "args": ["--mode", "quick", "--workers", "4"],
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "6. FULL reproduction of the paper (1.5-3 h)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/run_pipeline.py", "args": ["--mode", "full", "--workers", "4"],
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "7. Compare my results with the paper", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/verify_results.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Debug the simulator (tiresim.py)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/code/tiresim.py", "cwd": "${workspaceFolder}/code", "console": "integratedTerminal"}
+  ]
+}

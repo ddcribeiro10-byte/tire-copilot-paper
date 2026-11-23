@@ -1,0 +1,2 @@
+# store every file byte-for-byte (frozen results and the simulator must not be rewritten)
+* -text

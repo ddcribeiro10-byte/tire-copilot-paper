@@ -1,0 +1,242 @@
+{
+ "real": {
+  "205_3PMSF": {
+   "n": 1656,
+   "rr_mean_class": 3.4692028985507246,
+   "wet_mean_class": 2.861111111111111,
+   "spearman_rr_wet": 0.33392005334821134
+  },
+  "205_summer": {
+   "n": 2155,
+   "rr_mean_class": 3.1039443155452435,
+   "wet_mean_class": 2.265429234338747,
+   "spearman_rr_wet": 0.36276983295459625
+  },
+  "225_3PMSF": {
+   "n": 830,
+   "rr_mean_class": 3.3481927710843373,
+   "wet_mean_class": 3.0120481927710845,
+   "spearman_rr_wet": 0.3300092323205411
+  },
+  "225_summer": {
+   "n": 754,
+   "rr_mean_class": 3.0716180371352784,
+   "wet_mean_class": 2.559681697612732,
+   "spearman_rr_wet": 0.41020853385290995
+  },
+  "265_3PMSF": {
+   "n": 169,
+   "rr_mean_class": 3.6094674556213016,
+   "wet_mean_class": 3.408284023668639,
+   "spearman_rr_wet": 0.12490642164697598
+  },
+  "265_summer": {
+   "n": 391,
+   "rr_mean_class": 3.286445012787724,
+   "wet_mean_class": 2.9232736572890023,
+   "spearman_rr_wet": 0.3706911700481644
+  }
+ },
+ "anchor": {
+  "G_baseline_lead": 1.32,
+  "d_baseline_lead": 34.5
+ },
+ "baseline_per_size": [
+  {
+   "rrc": 8.79,
+   "rr_class": "C",
+   "G": 1.32,
+   "wet_class": "C",
+   "noise": 71.0
+  },
+  {
+   "rrc": 9.16,
+   "rr_class": "D",
+   "G": 1.272,
+   "wet_class": "C",
+   "noise": 71.2
+  },
+  {
+   "rrc": 9.4,
+   "rr_class": "D",
+   "G": 1.233,
+   "wet_class": "D",
+   "noise": 71.6
+  }
+ ],
+ "random_range": {
+  "205": {
+   "rrc_p5_p95": [
+    6.8,
+    11.86
+   ],
+   "G_p5_p95": [
+    1.185,
+    1.743
+   ],
+   "noise_p5_p95": [
+    69.4,
+    72.1
+   ]
+  },
+  "225": {
+   "rrc_p5_p95": [
+    7.08,
+    12.52
+   ],
+   "G_p5_p95": [
+    1.154,
+    1.712
+   ],
+   "noise_p5_p95": [
+    69.6,
+    72.3
+   ]
+  },
+  "265": {
+   "rrc_p5_p95": [
+    7.26,
+    12.84
+   ],
+   "G_p5_p95": [
+    1.125,
+    1.68
+   ],
+   "noise_p5_p95": [
+    70.0,
+    72.7
+   ]
+  }
+ },
+ "front": {
+  "205": {
+   "n": 100,
+   "share_in_real_3pmsf_combos": 66.0,
+   "share_in_any_real_combo": 68.0,
+   "best_combo_counts": {
+    "AC": 2,
+    "AD": 10,
+    "AE": 5,
+    "BB": 1,
+    "BC": 21,
+    "BD": 5,
+    "CB": 12,
+    "CC": 3,
+    "DA": 9,
+    "DB": 5,
+    "DC": 2,
+    "DD": 2,
+    "DE": 3,
+    "EA": 17,
+    "EB": 1,
+    "ED": 2
+   },
+   "rrc_min": 5.92,
+   "G_max": 1.741,
+   "spearman_rr_wet": -0.72
+  },
+  "225": {
+   "n": 100,
+   "share_in_real_3pmsf_combos": 70.0,
+   "share_in_any_real_combo": 75.0,
+   "best_combo_counts": {
+    "AD": 5,
+    "AE": 4,
+    "BC": 16,
+    "BD": 12,
+    "BE": 2,
+    "CB": 4,
+    "CC": 10,
+    "DA": 1,
+    "DB": 12,
+    "DC": 2,
+    "DD": 1,
+    "DE": 3,
+    "EA": 21,
+    "EB": 1,
+    "EC": 2,
+    "EE": 4
+   },
+   "rrc_min": 6.12,
+   "G_max": 1.71,
+   "spearman_rr_wet": -0.66
+  },
+  "265": {
+   "n": 100,
+   "share_in_real_3pmsf_combos": 80.0,
+   "share_in_any_real_combo": 80.0,
+   "best_combo_counts": {
+    "AD": 5,
+    "AE": 2,
+    "BC": 9,
+    "BD": 15,
+    "BE": 6,
+    "CC": 9,
+    "CD": 3,
+    "DB": 9,
+    "DC": 7,
+    "DD": 1,
+    "EA": 17,
+    "EB": 8,
+    "EC": 1,
+    "ED": 1,
+    "EE": 7
+   },
+   "rrc_min": 6.28,
+   "G_max": 1.674,
+   "spearman_rr_wet": -0.59
+  }
+ },
+ "size_trend": {
+  "real_rr": [
+   3.47,
+   3.35,
+   3.61
+  ],
+  "real_wet": [
+   2.86,
+   3.01,
+   3.41
+  ],
+  "real_noise_median": [
+   72,
+   72,
+   73
+  ],
+  "sim_rrc": [
+   8.79,
+   9.16,
+   9.4
+  ],
+  "sim_G": [
+   1.32,
+   1.272,
+   1.233
+  ],
+  "sim_noise": [
+   71.0,
+   71.2,
+   71.6
+  ]
+ },
+ "case_per_size": [
+  {
+   "rrc": 8.01,
+   "rr_class": "C",
+   "G": 1.388,
+   "wet_class": "C"
+  },
+  {
+   "rrc": 8.31,
+   "rr_class": "C",
+   "G": 1.357,
+   "wet_class": "C"
+  },
+  {
+   "rrc": 8.56,
+   "rr_class": "C",
+   "G": 1.319,
+   "wet_class": "C"
+  }
+ ]
+}
